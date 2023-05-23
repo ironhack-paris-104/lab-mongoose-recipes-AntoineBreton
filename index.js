@@ -21,13 +21,13 @@ mongoose
       //itération 2 : //
 
       const newRecipe = await Recipe.create({
-        title: "Tarte à la caca-wet",
+        title: "Space cake",
         level: "UltraPro Chef",
-        ingredients: ["Pipi", "Caca", "Testostérone", "Crottes de nez"],
+        ingredients: ["Oeuf", "Farine", "Beurre", "Weed"],
         cuisine: "Cuisinella",
-        dishType: "snack",
+        dishType: "breakfast",
         image: "https://images.media-allrecipes.com/images/75131.jpg",
-        duration: 5,
+        duration: 666,
         creator: "Antoine Breton",
         created: new Date(),
       });
